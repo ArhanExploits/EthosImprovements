@@ -3,7 +3,7 @@ gethui().Ethos:Destroy()
 -- destroys ethos ui ^^
 
 
-local synversion = "2.23.11"
+local synversion = "2.23.11 Ethos Edition"
 
 -- Instances: 150 | Scripts: 8 | Modules: 4
 local G2L = {};
@@ -3207,7 +3207,7 @@ local function C_83()
 	local stuff  =script.Parent
 
 	stuff.Buttons.Discord.MouseButton1Up:Connect(function()
-		setclipboard("XYFXYNmG4D")
+		setclipboard("discord.gg/unluckify")
 	end)
 	stuff.Buttons.Rejoin.MouseButton1Up:Connect(function()
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
