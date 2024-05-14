@@ -3207,7 +3207,7 @@ local function C_83()
 	local stuff  =script.Parent
 
 	stuff.Buttons.Discord.MouseButton1Up:Connect(function()
-		setclipboard("discord.gg/unluckify")
+		setclipboard("https://discord.gg/Zq6tnd9QQF")
 	end)
 	stuff.Buttons.Rejoin.MouseButton1Up:Connect(function()
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
